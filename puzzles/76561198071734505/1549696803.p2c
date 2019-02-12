@@ -4,8 +4,8 @@
 	"Version"		"14"
 	"FileID"		"0x0000000062530D93"
 	"Timestamp_Created"		"0x000000005C5E7F23"
-	"Timestamp_Modified"		"0x000000005C63052A"
-	"CompileTime"		"32.084000"
+	"Timestamp_Modified"		"0x000000005C630983"
+	"CompileTime"		"33.235001"
 	"Coop"		"0"
 	"Title"		"Nacreous Classic"
 	"Description"		"[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1647259574]Nacreous by Narkodes[/url] PTI remake because I hate conductive plates and BEEmod. There is much less wiggle room so the estimated non-frontpage difficulty rating is 4/10 perhaps?"
@@ -660,7 +660,7 @@
 			"Index"		"25"
 			"Type"		"ITEM_BUTTON_FLOOR"
 			"Deletable"		"1"
-			"VoxelPos"		"4 9 1"
+			"VoxelPos"		"5 9 1"
 			"LocalPos"		"0 0 0"
 			"Angles"		"0 -90 0"
 			"ITEM_PROPERTY_BUTTON_TYPE"		"0"
@@ -1903,28 +1903,6 @@
 			"Index"		"135"
 			"Type"		"ITEM_LIGHT_PANEL"
 			"Deletable"		"1"
-			"VoxelPos"		"5 0 3"
-			"LocalPos"		"-0 -0 0.375"
-			"Angles"		"90 90 0"
-			"Facing"		"0 0 0"
-			"ConnectionVisiblity"		"0"
-		}
-		"Item"
-		{
-			"Index"		"136"
-			"Type"		"ITEM_SECONDARY_OBSERVATION_ROOM"
-			"Deletable"		"1"
-			"VoxelPos"		"4 10 2"
-			"LocalPos"		"0 0 0"
-			"Angles"		"-90 90 0"
-			"Facing"		"0 0 0"
-			"ConnectionVisiblity"		"0"
-		}
-		"Item"
-		{
-			"Index"		"137"
-			"Type"		"ITEM_LIGHT_PANEL"
-			"Deletable"		"1"
 			"VoxelPos"		"5 10 3"
 			"LocalPos"		"-0 -0 0.375"
 			"Angles"		"90 -90 0"
@@ -1933,7 +1911,7 @@
 		}
 		"Item"
 		{
-			"Index"		"138"
+			"Index"		"136"
 			"Type"		"ITEM_BUTTON_FLOOR"
 			"Deletable"		"1"
 			"VoxelPos"		"2 8 1"
@@ -1945,7 +1923,7 @@
 		}
 		"Item"
 		{
-			"Index"		"139"
+			"Index"		"137"
 			"Type"		"ITEM_BUTTON_FLOOR"
 			"Deletable"		"1"
 			"VoxelPos"		"2 10 1"
@@ -1957,7 +1935,7 @@
 		}
 		"Item"
 		{
-			"Index"		"140"
+			"Index"		"138"
 			"Type"		"ITEM_LIGHT_PANEL"
 			"Deletable"		"1"
 			"VoxelPos"		"9 2 3"
@@ -1968,7 +1946,7 @@
 		}
 		"Item"
 		{
-			"Index"		"141"
+			"Index"		"139"
 			"Type"		"ITEM_LIGHT_PANEL"
 			"Deletable"		"1"
 			"VoxelPos"		"9 0 3"
@@ -1979,12 +1957,23 @@
 		}
 		"Item"
 		{
-			"Index"		"142"
+			"Index"		"140"
 			"Type"		"ITEM_LIGHT_PANEL"
 			"Deletable"		"1"
 			"VoxelPos"		"2 1 3"
 			"LocalPos"		"-0 -0 0.375"
 			"Angles"		"90 0 0"
+			"Facing"		"0 0 0"
+			"ConnectionVisiblity"		"0"
+		}
+		"Item"
+		{
+			"Index"		"141"
+			"Type"		"ITEM_SECONDARY_OBSERVATION_ROOM"
+			"Deletable"		"1"
+			"VoxelPos"		"4 10 2"
+			"LocalPos"		"0 0 0"
+			"Angles"		"-90 90 0"
 			"Facing"		"0 0 0"
 			"ConnectionVisiblity"		"0"
 		}
@@ -2245,7 +2234,7 @@
 		}
 		"Connection"
 		{
-			"Sender"		"138"
+			"Sender"		"136"
 			"Receiver"		"2"
 			"Type"		"CONNECTION_STANDARD"
 		}
@@ -2257,7 +2246,7 @@
 		}
 		"Connection"
 		{
-			"Sender"		"139"
+			"Sender"		"137"
 			"Receiver"		"2"
 			"Type"		"CONNECTION_STANDARD"
 		}
