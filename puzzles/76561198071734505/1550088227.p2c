@@ -4,8 +4,8 @@
 	"Version"		"14"
 	"FileID"		"0x0000000062A588DC"
 	"Timestamp_Created"		"0x000000005C647823"
-	"Timestamp_Modified"		"0x000000005C65316B"
-	"CompileTime"		"36.500000"
+	"Timestamp_Modified"		"0x000000005C654003"
+	"CompileTime"		"35.532001"
 	"Coop"		"0"
 	"Title"		"Hell's Gate Part 2"
 	"Description"		"There is a logical solution."
@@ -23,7 +23,7 @@
 				"Y8"		"f111111111111"
 				"Y7"		"f111111111111"
 				"Y6"		"f111111111111"
-				"Y5"		"f111110111111"
+				"Y5"		"f111110001111"
 				"Y4"		"f111111111111"
 				"Y3"		"f111111111111"
 				"Y2"		"f111111111111"
@@ -1364,7 +1364,7 @@
 			"Index"		"69"
 			"Type"		"ITEM_LASER_RELAY_CENTER"
 			"Deletable"		"1"
-			"VoxelPos"		"5 5 0"
+			"VoxelPos"		"6 5 0"
 			"LocalPos"		"0 0 0"
 			"Angles"		"0 0 0"
 			"Facing"		"0 0 0"
@@ -1377,19 +1377,6 @@
 			"Deletable"		"1"
 			"VoxelPos"		"5 5 0"
 			"LocalPos"		"0 0 0"
-			"Angles"		"-90 0 0"
-			"ITEM_PROPERTY_CONNECTION_COUNT"		"1"
-			"ITEM_PROPERTY_START_ENABLED"		"0"
-			"Facing"		"0 0 0"
-			"ConnectionVisiblity"		"0"
-		}
-		"Item"
-		{
-			"Index"		"71"
-			"Type"		"ITEM_LASER_EMITTER_OFFSET"
-			"Deletable"		"1"
-			"VoxelPos"		"5 5 0"
-			"LocalPos"		"0 0 0"
 			"Angles"		"-90 90 0"
 			"ITEM_PROPERTY_CONNECTION_COUNT"		"1"
 			"ITEM_PROPERTY_START_ENABLED"		"0"
@@ -1398,20 +1385,7 @@
 		}
 		"Item"
 		{
-			"Index"		"72"
-			"Type"		"ITEM_LASER_EMITTER_OFFSET"
-			"Deletable"		"1"
-			"VoxelPos"		"5 5 0"
-			"LocalPos"		"0 0 0"
-			"Angles"		"-90 -90 0"
-			"ITEM_PROPERTY_CONNECTION_COUNT"		"1"
-			"ITEM_PROPERTY_START_ENABLED"		"0"
-			"Facing"		"0 0 0"
-			"ConnectionVisiblity"		"0"
-		}
-		"Item"
-		{
-			"Index"		"73"
+			"Index"		"71"
 			"Type"		"ITEM_BARRIER_HAZARD"
 			"Deletable"		"1"
 			"VoxelPos"		"1 1 1"
@@ -1425,7 +1399,7 @@
 		}
 		"Item"
 		{
-			"Index"		"74"
+			"Index"		"72"
 			"Type"		"ITEM_BARRIER_HAZARD_EXTENT"
 			"Deletable"		"0"
 			"VoxelPos"		"1 1 1"
@@ -1436,7 +1410,7 @@
 		}
 		"Item"
 		{
-			"Index"		"75"
+			"Index"		"73"
 			"Type"		"ITEM_BARRIER_HAZARD_EXTENT"
 			"Deletable"		"0"
 			"VoxelPos"		"1 1 1"
@@ -1447,7 +1421,7 @@
 		}
 		"Item"
 		{
-			"Index"		"76"
+			"Index"		"74"
 			"Type"		"ITEM_BARRIER_HAZARD"
 			"Deletable"		"1"
 			"VoxelPos"		"1 1 1"
@@ -1461,7 +1435,7 @@
 		}
 		"Item"
 		{
-			"Index"		"77"
+			"Index"		"75"
 			"Type"		"ITEM_BARRIER_HAZARD_EXTENT"
 			"Deletable"		"0"
 			"VoxelPos"		"1 1 1"
@@ -1472,7 +1446,7 @@
 		}
 		"Item"
 		{
-			"Index"		"78"
+			"Index"		"76"
 			"Type"		"ITEM_BARRIER_HAZARD_EXTENT"
 			"Deletable"		"0"
 			"VoxelPos"		"1 1 1"
@@ -1483,7 +1457,7 @@
 		}
 		"Item"
 		{
-			"Index"		"79"
+			"Index"		"77"
 			"Type"		"ITEM_BARRIER_HAZARD"
 			"Deletable"		"1"
 			"VoxelPos"		"9 5 2"
@@ -1497,7 +1471,7 @@
 		}
 		"Item"
 		{
-			"Index"		"80"
+			"Index"		"78"
 			"Type"		"ITEM_BARRIER_HAZARD_EXTENT"
 			"Deletable"		"0"
 			"VoxelPos"		"9 5 2"
@@ -1508,7 +1482,7 @@
 		}
 		"Item"
 		{
-			"Index"		"81"
+			"Index"		"79"
 			"Type"		"ITEM_BARRIER_HAZARD_EXTENT"
 			"Deletable"		"0"
 			"VoxelPos"		"9 5 2"
@@ -1519,7 +1493,7 @@
 		}
 		"Item"
 		{
-			"Index"		"82"
+			"Index"		"80"
 			"Type"		"ITEM_BARRIER_HAZARD"
 			"Deletable"		"1"
 			"VoxelPos"		"1 9 3"
@@ -1533,7 +1507,7 @@
 		}
 		"Item"
 		{
-			"Index"		"83"
+			"Index"		"81"
 			"Type"		"ITEM_BARRIER_HAZARD_EXTENT"
 			"Deletable"		"0"
 			"VoxelPos"		"1 9 3"
@@ -1544,7 +1518,7 @@
 		}
 		"Item"
 		{
-			"Index"		"84"
+			"Index"		"82"
 			"Type"		"ITEM_BARRIER_HAZARD_EXTENT"
 			"Deletable"		"0"
 			"VoxelPos"		"1 9 3"
@@ -1555,7 +1529,7 @@
 		}
 		"Item"
 		{
-			"Index"		"85"
+			"Index"		"83"
 			"Type"		"ITEM_BARRIER_HAZARD"
 			"Deletable"		"1"
 			"VoxelPos"		"0 8 5"
@@ -1569,7 +1543,7 @@
 		}
 		"Item"
 		{
-			"Index"		"86"
+			"Index"		"84"
 			"Type"		"ITEM_BARRIER_HAZARD_EXTENT"
 			"Deletable"		"0"
 			"VoxelPos"		"0 8 5"
@@ -1580,12 +1554,189 @@
 		}
 		"Item"
 		{
-			"Index"		"87"
+			"Index"		"85"
 			"Type"		"ITEM_BARRIER_HAZARD_EXTENT"
 			"Deletable"		"0"
 			"VoxelPos"		"0 8 5"
 			"LocalPos"		"0 0 0"
 			"Angles"		"-90 0 0"
+			"Facing"		"0 0 0"
+			"ConnectionVisiblity"		"0"
+		}
+		"Item"
+		{
+			"Index"		"86"
+			"Type"		"ITEM_BARRIER_HAZARD"
+			"Deletable"		"1"
+			"VoxelPos"		"1 9 3"
+			"LocalPos"		"-0 -0 -0.375"
+			"Angles"		"-90 90 0"
+			"ITEM_PROPERTY_CONNECTION_COUNT"		"1"
+			"ITEM_PROPERTY_BARRIER_HAZARD_TYPE"		"1"
+			"ITEM_PROPERTY_START_ENABLED"		"1"
+			"Facing"		"0 0 0"
+			"ConnectionVisiblity"		"0"
+		}
+		"Item"
+		{
+			"Index"		"87"
+			"Type"		"ITEM_BARRIER_HAZARD_EXTENT"
+			"Deletable"		"0"
+			"VoxelPos"		"1 9 3"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 180 0"
+			"Facing"		"0 0 0"
+			"ConnectionVisiblity"		"0"
+		}
+		"Item"
+		{
+			"Index"		"88"
+			"Type"		"ITEM_BARRIER_HAZARD_EXTENT"
+			"Deletable"		"0"
+			"VoxelPos"		"1 9 3"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 0 0"
+			"Facing"		"0 0 0"
+			"ConnectionVisiblity"		"0"
+		}
+		"Item"
+		{
+			"Index"		"89"
+			"Type"		"ITEM_BARRIER_HAZARD"
+			"Deletable"		"1"
+			"VoxelPos"		"9 5 2"
+			"LocalPos"		"-0 -0 -0.375"
+			"Angles"		"-90 -90 0"
+			"ITEM_PROPERTY_CONNECTION_COUNT"		"1"
+			"ITEM_PROPERTY_BARRIER_HAZARD_TYPE"		"1"
+			"ITEM_PROPERTY_START_ENABLED"		"1"
+			"Facing"		"0 0 0"
+			"ConnectionVisiblity"		"0"
+		}
+		"Item"
+		{
+			"Index"		"90"
+			"Type"		"ITEM_BARRIER_HAZARD_EXTENT"
+			"Deletable"		"0"
+			"VoxelPos"		"9 5 2"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 180 0"
+			"Facing"		"0 0 0"
+			"ConnectionVisiblity"		"0"
+		}
+		"Item"
+		{
+			"Index"		"91"
+			"Type"		"ITEM_BARRIER_HAZARD_EXTENT"
+			"Deletable"		"0"
+			"VoxelPos"		"9 5 2"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 0 0"
+			"Facing"		"0 0 0"
+			"ConnectionVisiblity"		"0"
+		}
+		"Item"
+		{
+			"Index"		"92"
+			"Type"		"ITEM_BARRIER_HAZARD"
+			"Deletable"		"1"
+			"VoxelPos"		"1 1 1"
+			"LocalPos"		"-0 -0 -0.375"
+			"Angles"		"-90 90 0"
+			"ITEM_PROPERTY_CONNECTION_COUNT"		"1"
+			"ITEM_PROPERTY_BARRIER_HAZARD_TYPE"		"1"
+			"ITEM_PROPERTY_START_ENABLED"		"1"
+			"Facing"		"0 0 0"
+			"ConnectionVisiblity"		"0"
+		}
+		"Item"
+		{
+			"Index"		"93"
+			"Type"		"ITEM_BARRIER_HAZARD_EXTENT"
+			"Deletable"		"0"
+			"VoxelPos"		"1 1 1"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 180 0"
+			"Facing"		"0 0 0"
+			"ConnectionVisiblity"		"0"
+		}
+		"Item"
+		{
+			"Index"		"94"
+			"Type"		"ITEM_BARRIER_HAZARD_EXTENT"
+			"Deletable"		"0"
+			"VoxelPos"		"1 1 1"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 0 0"
+			"Facing"		"0 0 0"
+			"ConnectionVisiblity"		"0"
+		}
+		"Item"
+		{
+			"Index"		"95"
+			"Type"		"ITEM_LASER_EMITTER_OFFSET"
+			"Deletable"		"1"
+			"VoxelPos"		"5 5 0"
+			"LocalPos"		"0 0 0"
+			"Angles"		"-90 180 0"
+			"ITEM_PROPERTY_CONNECTION_COUNT"		"1"
+			"ITEM_PROPERTY_START_ENABLED"		"0"
+			"Facing"		"0 0 0"
+			"ConnectionVisiblity"		"0"
+		}
+		"Item"
+		{
+			"Index"		"96"
+			"Type"		"ITEM_LASER_EMITTER_OFFSET"
+			"Deletable"		"1"
+			"VoxelPos"		"5 5 0"
+			"LocalPos"		"0 0 0"
+			"Angles"		"-90 -90 0"
+			"ITEM_PROPERTY_CONNECTION_COUNT"		"1"
+			"ITEM_PROPERTY_START_ENABLED"		"0"
+			"Facing"		"0 0 0"
+			"ConnectionVisiblity"		"0"
+		}
+		"Item"
+		{
+			"Index"		"97"
+			"Type"		"ITEM_LASER_RELAY_CENTER"
+			"Deletable"		"1"
+			"VoxelPos"		"7 5 0"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 0 0"
+			"Facing"		"0 0 0"
+			"ConnectionVisiblity"		"0"
+		}
+		"Item"
+		{
+			"Index"		"98"
+			"Type"		"ITEM_CUBE"
+			"Deletable"		"1"
+			"VoxelPos"		"5 5 0"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 0 0"
+			"ITEM_PROPERTY_CUBE_TYPE"		"2"
+			"ITEM_PROPERTY_DROPPER_ENABLED"		"0"
+			"ITEM_PROPERTY_AUTO_DROP_CUBE"		"1"
+			"ITEM_PROPERTY_AUTO_RESPAWN_CUBE"		"1"
+			"Facing"		"-0 180 0"
+			"ConnectionVisiblity"		"0"
+		}
+		"Item"
+		{
+			"Index"		"99"
+			"Type"		"ITEM_DROPPER_CUBE"
+			"Deletable"		"1"
+			"VoxelPos"		"5 5 0"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 180 180"
+			"ITEM_PROPERTY_CONNECTION_COUNT"		"0"
+			"ITEM_PROPERTY_CUBE_TYPE"		"2"
+			"ITEM_PROPERTY_DROPPER_ENABLED"		"0"
+			"ITEM_PROPERTY_DROPPER_FALL_STRAIGHT_DOWN"		"1"
+			"ITEM_PROPERTY_AUTO_DROP_CUBE"		"1"
+			"ITEM_PROPERTY_AUTO_RESPAWN_CUBE"		"1"
 			"Facing"		"0 0 0"
 			"ConnectionVisiblity"		"0"
 		}
@@ -1816,92 +1967,80 @@
 		}
 		"Connection"
 		{
-			"Sender"		"67"
-			"Receiver"		"71"
-			"Type"		"CONNECTION_STANDARD"
-		}
-		"Connection"
-		{
 			"Sender"		"68"
 			"Receiver"		"70"
 			"Type"		"CONNECTION_STANDARD"
 		}
 		"Connection"
 		{
-			"Sender"		"66"
+			"Sender"		"71"
 			"Receiver"		"72"
-			"Type"		"CONNECTION_STANDARD"
-		}
-		"Connection"
-		{
-			"Sender"		"73"
-			"Receiver"		"74"
 			"Type"		"CONNECTION_BARRIER_ANCHOR_TO_EXTENT"
 		}
 		"Connection"
 		{
-			"Sender"		"73"
+			"Sender"		"71"
+			"Receiver"		"73"
+			"Type"		"CONNECTION_BARRIER_ANCHOR_TO_EXTENT"
+		}
+		"Connection"
+		{
+			"Sender"		"69"
+			"Receiver"		"71"
+			"Type"		"CONNECTION_STANDARD"
+		}
+		"Connection"
+		{
+			"Sender"		"74"
 			"Receiver"		"75"
 			"Type"		"CONNECTION_BARRIER_ANCHOR_TO_EXTENT"
 		}
 		"Connection"
 		{
-			"Sender"		"69"
-			"Receiver"		"73"
-			"Type"		"CONNECTION_STANDARD"
-		}
-		"Connection"
-		{
-			"Sender"		"76"
-			"Receiver"		"77"
+			"Sender"		"74"
+			"Receiver"		"76"
 			"Type"		"CONNECTION_BARRIER_ANCHOR_TO_EXTENT"
 		}
 		"Connection"
 		{
-			"Sender"		"76"
+			"Sender"		"69"
+			"Receiver"		"74"
+			"Type"		"CONNECTION_STANDARD"
+		}
+		"Connection"
+		{
+			"Sender"		"77"
 			"Receiver"		"78"
 			"Type"		"CONNECTION_BARRIER_ANCHOR_TO_EXTENT"
 		}
 		"Connection"
 		{
-			"Sender"		"69"
-			"Receiver"		"76"
-			"Type"		"CONNECTION_STANDARD"
-		}
-		"Connection"
-		{
-			"Sender"		"79"
-			"Receiver"		"80"
+			"Sender"		"77"
+			"Receiver"		"79"
 			"Type"		"CONNECTION_BARRIER_ANCHOR_TO_EXTENT"
 		}
 		"Connection"
 		{
-			"Sender"		"79"
+			"Sender"		"69"
+			"Receiver"		"77"
+			"Type"		"CONNECTION_STANDARD"
+		}
+		"Connection"
+		{
+			"Sender"		"80"
 			"Receiver"		"81"
 			"Type"		"CONNECTION_BARRIER_ANCHOR_TO_EXTENT"
 		}
 		"Connection"
 		{
-			"Sender"		"69"
-			"Receiver"		"79"
-			"Type"		"CONNECTION_STANDARD"
-		}
-		"Connection"
-		{
-			"Sender"		"82"
-			"Receiver"		"83"
-			"Type"		"CONNECTION_BARRIER_ANCHOR_TO_EXTENT"
-		}
-		"Connection"
-		{
-			"Sender"		"82"
-			"Receiver"		"84"
-			"Type"		"CONNECTION_BARRIER_ANCHOR_TO_EXTENT"
-		}
-		"Connection"
-		{
-			"Sender"		"69"
+			"Sender"		"80"
 			"Receiver"		"82"
+			"Type"		"CONNECTION_BARRIER_ANCHOR_TO_EXTENT"
+		}
+		"Connection"
+		{
+			"Sender"		"69"
+			"Receiver"		"80"
 			"Type"		"CONNECTION_STANDARD"
 		}
 		"Connection"
@@ -1912,21 +2051,93 @@
 		}
 		"Connection"
 		{
-			"Sender"		"85"
-			"Receiver"		"86"
+			"Sender"		"83"
+			"Receiver"		"84"
 			"Type"		"CONNECTION_BARRIER_ANCHOR_TO_EXTENT"
 		}
 		"Connection"
 		{
-			"Sender"		"85"
-			"Receiver"		"87"
+			"Sender"		"83"
+			"Receiver"		"85"
 			"Type"		"CONNECTION_BARRIER_ANCHOR_TO_EXTENT"
 		}
 		"Connection"
 		{
 			"Sender"		"22"
-			"Receiver"		"85"
+			"Receiver"		"83"
 			"Type"		"CONNECTION_STANDARD"
+		}
+		"Connection"
+		{
+			"Sender"		"86"
+			"Receiver"		"87"
+			"Type"		"CONNECTION_BARRIER_ANCHOR_TO_EXTENT"
+		}
+		"Connection"
+		{
+			"Sender"		"86"
+			"Receiver"		"88"
+			"Type"		"CONNECTION_BARRIER_ANCHOR_TO_EXTENT"
+		}
+		"Connection"
+		{
+			"Sender"		"69"
+			"Receiver"		"86"
+			"Type"		"CONNECTION_STANDARD"
+		}
+		"Connection"
+		{
+			"Sender"		"89"
+			"Receiver"		"90"
+			"Type"		"CONNECTION_BARRIER_ANCHOR_TO_EXTENT"
+		}
+		"Connection"
+		{
+			"Sender"		"89"
+			"Receiver"		"91"
+			"Type"		"CONNECTION_BARRIER_ANCHOR_TO_EXTENT"
+		}
+		"Connection"
+		{
+			"Sender"		"69"
+			"Receiver"		"89"
+			"Type"		"CONNECTION_STANDARD"
+		}
+		"Connection"
+		{
+			"Sender"		"92"
+			"Receiver"		"93"
+			"Type"		"CONNECTION_BARRIER_ANCHOR_TO_EXTENT"
+		}
+		"Connection"
+		{
+			"Sender"		"92"
+			"Receiver"		"94"
+			"Type"		"CONNECTION_BARRIER_ANCHOR_TO_EXTENT"
+		}
+		"Connection"
+		{
+			"Sender"		"66"
+			"Receiver"		"96"
+			"Type"		"CONNECTION_STANDARD"
+		}
+		"Connection"
+		{
+			"Sender"		"67"
+			"Receiver"		"95"
+			"Type"		"CONNECTION_STANDARD"
+		}
+		"Connection"
+		{
+			"Sender"		"97"
+			"Receiver"		"92"
+			"Type"		"CONNECTION_STANDARD"
+		}
+		"Connection"
+		{
+			"Sender"		"98"
+			"Receiver"		"99"
+			"Type"		"CONNECTION_BOX_DROPPER"
 		}
 	}
 }
