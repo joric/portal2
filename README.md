@@ -25,7 +25,7 @@ Many players use custom skins for the portal gun. See skins folder for details. 
 See [singleplayer portal colors tutorial](https://steamcommunity.com/sharedfiles/filedetails/?id=852095486)
 and [changing the crosshair and portalgun effects to match your newly colored portals](https://www.moddb.com/mods/portal-infinitum/tutorials/changing-the-crosshair-and-portalgun-effects-to-match-your-newly-colored-portals).
 
-I used RGB (171,8,8) and (29,183,115) accordingly, a quick way is "Gradient Map" in Photoshop (doesn't work for HUDs).
+I used RGB #ab0808 and #1db773 accordingly and "Image-Adjustments-Gradient Map" in Photoshop.
 
 ## Custom maps
 
