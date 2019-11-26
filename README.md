@@ -20,6 +20,13 @@ You also can temporarily replace stock vrad.exe with dummy exe that does nothing
 
 Many players use custom skins for the portal gun. See skins folder for details. I use [Photoshop VTF Plugin](https://developer.valvesoftware.com/wiki/Photoshop_VTF_Plugin) to edit .vtf files.
 
+## Portal colors
+
+See [singleplayer portal colors tutorial](https://steamcommunity.com/sharedfiles/filedetails/?id=852095486)
+and [changing the crosshair and portalgun effects to match your newly colored portals](https://www.moddb.com/mods/portal-infinitum/tutorials/changing-the-crosshair-and-portalgun-effects-to-match-your-newly-colored-portals).
+
+I used RGB (171,8,8) and (29,183,115) accordingly, a quick way is "Gradient Map" in Photoshop (doesn't work for HUDs).
+
 ## Custom maps
 
 I use stock Portal 2 PTI editor, [BEEmod](https://github.com/BEEmod/) and (occasionally) Hammer. My released maps added below.
