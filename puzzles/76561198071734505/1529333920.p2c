@@ -4,8 +4,8 @@
 	"Version"		"14"
 	"FileID"		"0x00000000545F1E9D"
 	"Timestamp_Created"		"0x000000005B27C8A0"
-	"Timestamp_Modified"		"0x000000005E0B848F"
-	"CompileTime"		"19.065001"
+	"Timestamp_Modified"		"0x000000005E0B9C34"
+	"CompileTime"		"18.966002"
 	"Coop"		"0"
 	"Title"		"Air Tiny"
 	"Description"		"A shameless [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1411941684]Air Time by SloppySteve[/url] ripoff in a smaller volume. A desperate attempt to make a map that can be solved only the intended way. Nice map, well made and sufficiently lit."
@@ -765,21 +765,41 @@
 		"Item"
 		{
 			"Index"		"51"
-			"Type"		"ITEM_BARRIER_HAZARD"
+			"Type"		"ITEM_BARRIER"
 			"Deletable"		"1"
 			"VoxelPos"		"5 0 0"
-			"LocalPos"		"-0 -0 0.375"
+			"LocalPos"		"0 0 0"
 			"Angles"		"90 90 0"
-			"ITEM_PROPERTY_CONNECTION_COUNT"		"0"
-			"ITEM_PROPERTY_BARRIER_HAZARD_TYPE"		"0"
-			"ITEM_PROPERTY_START_ENABLED"		"1"
+			"ITEM_PROPERTY_BARRIER_TYPE"		"0"
 			"Facing"		"0 0 0"
 			"ConnectionVisiblity"		"0"
 		}
 		"Item"
 		{
 			"Index"		"52"
-			"Type"		"ITEM_BARRIER_HAZARD_EXTENT"
+			"Type"		"ITEM_BARRIER_EXTENT"
+			"Deletable"		"0"
+			"VoxelPos"		"5 0 0"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 0 180"
+			"Facing"		"0 0 0"
+			"ConnectionVisiblity"		"0"
+		}
+		"Item"
+		{
+			"Index"		"53"
+			"Type"		"ITEM_BARRIER_EXTENT"
+			"Deletable"		"0"
+			"VoxelPos"		"5 1 0"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 90 180"
+			"Facing"		"0 0 0"
+			"ConnectionVisiblity"		"0"
+		}
+		"Item"
+		{
+			"Index"		"54"
+			"Type"		"ITEM_BARRIER_EXTENT"
 			"Deletable"		"0"
 			"VoxelPos"		"5 0 0"
 			"LocalPos"		"0 0 0"
@@ -789,12 +809,30 @@
 		}
 		"Item"
 		{
-			"Index"		"53"
-			"Type"		"ITEM_BARRIER_HAZARD_EXTENT"
-			"Deletable"		"0"
-			"VoxelPos"		"5 0 0"
+			"Index"		"55"
+			"Type"		"ITEM_PANEL_ANGLED"
+			"Deletable"		"1"
+			"VoxelPos"		"5 2 0"
 			"LocalPos"		"0 0 0"
-			"Angles"		"0 0 180"
+			"Angles"		"90 180 0"
+			"ITEM_PROPERTY_CONNECTION_COUNT"		"1"
+			"ITEM_PROPERTY_ANGLED_PANEL_TYPE"		"0"
+			"ITEM_PROPERTY_START_DEPLOYED"		"1"
+			"ITEM_PROPERTY_PORTALABLE"		"0"
+			"ITEM_PROPERTY_ANGLED_PANEL_ANIMATION"		"ramp_90_deg_open"
+			"Facing"		"0 0 0"
+			"ConnectionVisiblity"		"0"
+		}
+		"Item"
+		{
+			"Index"		"56"
+			"Type"		"ITEM_BUTTON_PEDESTAL"
+			"Deletable"		"1"
+			"VoxelPos"		"5 2 1"
+			"LocalPos"		"0 0 0"
+			"Angles"		"-90 0 0"
+			"ITEM_PROPERTY_TIMER_DELAY"		"3"
+			"ITEM_PROPERTY_TIMER_SOUND"		"1"
 			"Facing"		"0 0 0"
 			"ConnectionVisiblity"		"0"
 		}
@@ -1034,6 +1072,18 @@
 			"Sender"		"51"
 			"Receiver"		"53"
 			"Type"		"CONNECTION_BARRIER_ANCHOR_TO_EXTENT"
+		}
+		"Connection"
+		{
+			"Sender"		"51"
+			"Receiver"		"54"
+			"Type"		"CONNECTION_BARRIER_ANCHOR_TO_EXTENT"
+		}
+		"Connection"
+		{
+			"Sender"		"56"
+			"Receiver"		"55"
+			"Type"		"CONNECTION_STANDARD"
 		}
 	}
 }
