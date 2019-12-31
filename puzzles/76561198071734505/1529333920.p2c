@@ -4,8 +4,8 @@
 	"Version"		"14"
 	"FileID"		"0x00000000545F1E9D"
 	"Timestamp_Created"		"0x000000005B27C8A0"
-	"Timestamp_Modified"		"0x000000005E0B720B"
-	"CompileTime"		"20.231001"
+	"Timestamp_Modified"		"0x000000005E0B75B5"
+	"CompileTime"		"20.458000"
 	"Coop"		"0"
 	"Title"		"Air Tiny"
 	"Description"		"A shameless [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1411941684]Air Time by SloppySteve[/url] ripoff in a smaller volume. A desperate attempt to make a map that can be solved only the intended way. Nice map, well made and sufficiently lit."
@@ -773,6 +773,51 @@
 			"Facing"		"0 0 0"
 			"ConnectionVisiblity"		"0"
 		}
+		"Item"
+		{
+			"Index"		"52"
+			"Type"		"ITEM_BARRIER"
+			"Deletable"		"1"
+			"VoxelPos"		"3 0 0"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 0 0"
+			"ITEM_PROPERTY_BARRIER_TYPE"		"0"
+			"Facing"		"0 0 0"
+			"ConnectionVisiblity"		"0"
+		}
+		"Item"
+		{
+			"Index"		"53"
+			"Type"		"ITEM_BARRIER_EXTENT"
+			"Deletable"		"0"
+			"VoxelPos"		"3 0 0"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 -90 -90"
+			"Facing"		"0 0 0"
+			"ConnectionVisiblity"		"0"
+		}
+		"Item"
+		{
+			"Index"		"54"
+			"Type"		"ITEM_BARRIER_EXTENT"
+			"Deletable"		"0"
+			"VoxelPos"		"3 0 0"
+			"LocalPos"		"0 0 0"
+			"Angles"		"-90 180 0"
+			"Facing"		"0 0 0"
+			"ConnectionVisiblity"		"0"
+		}
+		"Item"
+		{
+			"Index"		"55"
+			"Type"		"ITEM_BARRIER_EXTENT"
+			"Deletable"		"0"
+			"VoxelPos"		"3 1 0"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 90 90"
+			"Facing"		"0 0 0"
+			"ConnectionVisiblity"		"0"
+		}
 	}
 	"Connections"
 	{
@@ -996,6 +1041,24 @@
 		{
 			"Sender"		"48"
 			"Receiver"		"51"
+			"Type"		"CONNECTION_BARRIER_ANCHOR_TO_EXTENT"
+		}
+		"Connection"
+		{
+			"Sender"		"52"
+			"Receiver"		"53"
+			"Type"		"CONNECTION_BARRIER_ANCHOR_TO_EXTENT"
+		}
+		"Connection"
+		{
+			"Sender"		"52"
+			"Receiver"		"54"
+			"Type"		"CONNECTION_BARRIER_ANCHOR_TO_EXTENT"
+		}
+		"Connection"
+		{
+			"Sender"		"52"
+			"Receiver"		"55"
 			"Type"		"CONNECTION_BARRIER_ANCHOR_TO_EXTENT"
 		}
 	}
