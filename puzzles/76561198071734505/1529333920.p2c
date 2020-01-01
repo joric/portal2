@@ -4,8 +4,8 @@
 	"Version"		"14"
 	"FileID"		"0x00000000545F1E9D"
 	"Timestamp_Created"		"0x000000005B27C8A0"
-	"Timestamp_Modified"		"0x000000005E0C53DE"
-	"CompileTime"		"19.648001"
+	"Timestamp_Modified"		"0x000000005E0C64F0"
+	"CompileTime"		"18.662001"
 	"Coop"		"0"
 	"Title"		"Air Tiny"
 	"Description"		"A shameless [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1411941684]Air Time by SloppySteve[/url] ripoff in a smaller volume. A desperate attempt to make a map that can be solved only the intended way. Nice map, well made and sufficiently lit."
@@ -20,21 +20,21 @@
 				"Y3"		"f11111110"
 				"Y2"		"f00000000"
 				"Y1"		"f00000000"
-				"Y0"		"f00000000"
+				"Y0"		"f10000000"
 			}
 			"Z1"
 			{
 				"Y3"		"f11111110"
 				"Y2"		"f00000000"
 				"Y1"		"f00000000"
-				"Y0"		"f00000000"
+				"Y0"		"f10000000"
 			}
 			"Z2"
 			{
 				"Y3"		"f11111110"
 				"Y2"		"f00000000"
 				"Y1"		"f00000000"
-				"Y0"		"f00000000"
+				"Y0"		"f10000000"
 			}
 			"Z3"
 			{
@@ -836,7 +836,7 @@
 			"Index"		"57"
 			"Type"		"ITEM_LASER_EMITTER_OFFSET"
 			"Deletable"		"1"
-			"VoxelPos"		"0 0 2"
+			"VoxelPos"		"1 0 2"
 			"LocalPos"		"0 0 0"
 			"Angles"		"90 0 0"
 			"ITEM_PROPERTY_CONNECTION_COUNT"		"1"
