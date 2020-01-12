@@ -36,3 +36,4 @@ File | Map Name
 [1529333920.p2c](puzzles/76561198071734505/1529333920.p2c) | [Air Tiny](https://steamcommunity.com/sharedfiles/filedetails/?id=1415519901)
 [1549696803.p2c](puzzles/76561198071734505/1549696803.p2c) | [Nacreous Classic](https://steamcommunity.com/sharedfiles/filedetails/?id=1649610131)
 [1550088227.p2c](puzzles/76561198071734505/1550088227.p2c) | [Hell's Gate Part 2](https://steamcommunity.com/sharedfiles/filedetails/?id=1655015644)
+[1578414794.p2c](puzzles/76561198071734505/1578414794.p2c) | [Print Classic](https://steamcommunity.com/sharedfiles/filedetails/?id=1967453744)
