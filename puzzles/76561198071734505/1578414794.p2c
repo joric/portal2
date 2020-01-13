@@ -4,8 +4,8 @@
 	"Version"		"14"
 	"FileID"		"0x000000007544F630"
 	"Timestamp_Created"		"0x000000005E14B2CA"
-	"Timestamp_Modified"		"0x000000005E1CAD2E"
-	"CompileTime"		"25.443001"
+	"Timestamp_Modified"		"0x000000005E1CF5C3"
+	"CompileTime"		"25.607000"
 	"Coop"		"0"
 	"Title"		"Print Classic"
 	"Description"		"Remake of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1961677465]Print[/url] by Dark Rozen. Sorry I couldn't resist adding a laser grid to force intended solution. I don't have problems with republishing and URLs so here it is."
@@ -1280,6 +1280,64 @@
 			"Facing"		"0 0 0"
 			"ConnectionVisiblity"		"0"
 		}
+		"Item"
+		{
+			"Index"		"83"
+			"Type"		"ITEM_BARRIER_HAZARD"
+			"Deletable"		"1"
+			"VoxelPos"		"5 3 1"
+			"LocalPos"		"-0.375 0 0"
+			"Angles"		"0 0 -90"
+			"ITEM_PROPERTY_CONNECTION_COUNT"		"1"
+			"ITEM_PROPERTY_BARRIER_HAZARD_TYPE"		"1"
+			"ITEM_PROPERTY_START_ENABLED"		"0"
+			"Facing"		"0 0 0"
+			"ConnectionVisiblity"		"0"
+		}
+		"Item"
+		{
+			"Index"		"84"
+			"Type"		"ITEM_BARRIER_HAZARD_EXTENT"
+			"Deletable"		"0"
+			"VoxelPos"		"5 3 1"
+			"LocalPos"		"0 0 0"
+			"Angles"		"90 0 0"
+			"Facing"		"0 0 0"
+			"ConnectionVisiblity"		"0"
+		}
+		"Item"
+		{
+			"Index"		"85"
+			"Type"		"ITEM_BARRIER_HAZARD_EXTENT"
+			"Deletable"		"0"
+			"VoxelPos"		"5 3 3"
+			"LocalPos"		"0 0 0"
+			"Angles"		"-90 180 0"
+			"Facing"		"0 0 0"
+			"ConnectionVisiblity"		"0"
+		}
+		"Item"
+		{
+			"Index"		"86"
+			"Type"		"ITEM_SECONDARY_OBSERVATION_ROOM"
+			"Deletable"		"1"
+			"VoxelPos"		"3 9 3"
+			"LocalPos"		"0 0 0"
+			"Angles"		"-90 90 0"
+			"Facing"		"0 0 0"
+			"ConnectionVisiblity"		"0"
+		}
+		"Item"
+		{
+			"Index"		"87"
+			"Type"		"ITEM_SECONDARY_OBSERVATION_ROOM"
+			"Deletable"		"1"
+			"VoxelPos"		"1 8 3"
+			"LocalPos"		"0 0 0"
+			"Angles"		"-90 180 0"
+			"Facing"		"0 0 0"
+			"ConnectionVisiblity"		"0"
+		}
 	}
 	"Connections"
 	{
@@ -1558,6 +1616,24 @@
 			"Sender"		"79"
 			"Receiver"		"82"
 			"Type"		"CONNECTION_BARRIER_ANCHOR_TO_EXTENT"
+		}
+		"Connection"
+		{
+			"Sender"		"83"
+			"Receiver"		"84"
+			"Type"		"CONNECTION_BARRIER_ANCHOR_TO_EXTENT"
+		}
+		"Connection"
+		{
+			"Sender"		"83"
+			"Receiver"		"85"
+			"Type"		"CONNECTION_BARRIER_ANCHOR_TO_EXTENT"
+		}
+		"Connection"
+		{
+			"Sender"		"33"
+			"Receiver"		"83"
+			"Type"		"CONNECTION_STANDARD"
 		}
 	}
 }
