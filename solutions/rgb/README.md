@@ -1,6 +1,6 @@
-# Rearrange, Guarantee, Benefit
+# Rearrange, Guarantee, Benefit by south cross
 
-https://steamcommunity.com/sharedfiles/filedetails/?id=1958945244
+https://steamcommunity.com/sharedfiles/filedetails/?id=1958945244 (use [Steam Workshop Downloader](https://greasyfork.org/en/scripts/5729-enhanced-steam-workshop-downloader) to get the map)
 
 Looks like a simple simulation problem with backtracking.
 
