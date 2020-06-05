@@ -20,6 +20,11 @@ You also can temporarily replace stock vrad.exe with dummy exe that does nothing
 
 Many players use custom skins for the portal gun. See skins folder for details. I use [Photoshop VTF Plugin](https://developer.valvesoftware.com/wiki/Photoshop_VTF_Plugin) to edit .vtf files.
 
+You can also use command line tools:
+
+* https://github.com/maxme/png2vtf
+* https://github.com/eXeC64/vtf2png
+
 ## Portal colors
 
 See [singleplayer portal colors tutorial](https://steamcommunity.com/sharedfiles/filedetails/?id=852095486)
