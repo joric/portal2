@@ -1,5 +1,5 @@
 @echo off
-set image=images\v_portalgun.stamp.vtf
+set image=images\v_portalgun.joric.vtf
 
 set portal2=C:\Program Files (x86)\Steam\steamapps\common\Portal 2
 set path=%portal2%\bin;%path%
