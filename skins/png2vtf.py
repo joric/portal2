@@ -6,8 +6,8 @@ from sys import argv
 def convert(infile, outfile, text):
     im = Image.open(infile)
     draw = ImageDraw.Draw(im)
-    font = ImageFont.truetype(r'C:\Windows\Fonts\arial.ttf', 50) 
-    draw.text((380, 20), text, fill='black', font = font)
+    font = ImageFont.truetype(r'C:\Windows\Fonts\arial.ttf', 30) 
+    draw.text((380, 20), text, fill='grey', font = font)
     im.putalpha(255)
     data = im.tobytes('raw')
     f = open(outfile,'wb')

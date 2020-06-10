@@ -1,7 +1,7 @@
 @echo off
 setlocal EnableDelayedExpansion
 
-python png2vtf.py images\v_portalgun.joric.png images\v_portalgun.vtf %1
+python png2vtf.py images\v_portalgun.png images\v_portalgun.vtf %1
 
 set portal2=C:\Program Files (x86)\Steam\steamapps\common\Portal 2
 set path=%portal2%\bin;%path%
