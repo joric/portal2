@@ -6,7 +6,7 @@ from sys import argv
 def convert(infile, outfile, text):
     im = Image.open(infile)
     draw = ImageDraw.Draw(im)
-    font = ImageFont.truetype(r'C:\Windows\Fonts\arial.ttf', 50) 
+    font = ImageFont.truetype(r'C:\Windows\Fonts\arial.ttf', 40) 
     draw.text((380, 20), text, fill='grey', font = font)
     im.putalpha(255)
     data = im.tobytes('raw')
@@ -18,9 +18,5 @@ if __name__=='__main__':
     if len(argv)<3:
         print('usage: png2vtf.py infile outfile text')
     else:
-        infile = argv[1]
-        outfile = argv[2]
-        text = argv[3] if len(argv)>3 else ''
-        print('converting ', infile, outfile, text)
-        convert(infile, outfile, text)
+        convert(argv[1], argv[2], argv[3] if len(argv)>3 else '')
 
