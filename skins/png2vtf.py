@@ -10,7 +10,7 @@ def convert(infile, outfile, text):
     draw.text((380, 20), text, fill='grey', font = font)
     data = im.tobytes('raw')
     f = open(outfile,'wb')
-    f.write(bytes.fromhex('56 54 46 00 07 00 00 00 02 00 00 00 50 00 00 00 00 04 00 04 00 03 00 00 01 00 00 00 00 00 00 00 1A 68 B0 3E EE 05 B9 3E A3 75 BC 3E 00 00 00 00 00 00 80 3F 03 00 00 00 01 FF FF FF FF 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00'))
+    f.write(bytes.fromhex('56 54 46 00 07 00 00 00 02 00 00 00 50 00 00 00 00 04 00 04 00 03 00 00 01 00 00 00 00 00 00 00 1A 68 B0 3E EE 05 B9 3E A3 75 BC 3E 00 00 00 00 00 00 80 3F 02 00 00 00 01 FF FF FF FF 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00'))
     f.write(data)
 
 if __name__=='__main__':
