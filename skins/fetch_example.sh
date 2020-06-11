@@ -10,4 +10,5 @@ curl 'https://steamcommunity.com/id/iamjoric/myworkshopfiles/?browsesort=myplaye
   -H 'Sec-Fetch-Dest: document' \
   -H 'Referer: https://steamcommunity.com/id/iamjoric/myworkshopfiles/' \
   -H 'Accept-Language: en-US,en;q=0.9,ru;q=0.8,ja;q=0.7' \
+  -H 'Cookie: <use your cookies in here (copy the entire curl command from the chrome console in the network tab)>' \
   --compressed -s | sed -ne 's/^.*Showing 1-10 of \(.*\) entries.*$/\1/p'
