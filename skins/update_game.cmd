@@ -2,7 +2,11 @@
 set portal2=C:\Program Files (x86)\Steam\steamapps\common\Portal 2
 set path=%portal2%\bin;%path%
 
-python png2vtf.py images\v_portalgun.png images\v_portalgun.vtf %1
+FOR /F "tokens=* USEBACKQ" %%F IN (`bash -c ./fetch.sh`) DO SET text=%%F
+
+echo %text% maps played so far
+
+python png2vtf.py images\v_portalgun.png images\v_portalgun.vtf %text%
 
 set pakdir=pak01_dir\materials\models\weapons\v_models\v_portalgun
 md %pakdir%
