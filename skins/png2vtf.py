@@ -3,21 +3,23 @@
 from PIL import Image, ImageDraw, ImageFont
 from sys import argv
 
-def convert(infile, outfile, text, fancy=True):
+def convert(infile, outfile, text, fancy=False):
     im = Image.open(infile)
     draw = ImageDraw.Draw(im)
-    x,y,fs = 380,20,16
-    font = ImageFont.truetype(r'C:\Windows\Fonts\arial.ttf', fs)
-
+    ttf = r'C:\Windows\Fonts\arial.ttf'
     if fancy:
+        x,y,fs = 380,20,16
+        font = ImageFont.truetype(ttf, fs)
         fw, fh = fs*4//5, fs
         w,h,spacing = fw+4,fh-1,2
         for i in range(len(text)):
             draw.rectangle((x, y, x + w, y + h), fill='black')
-            draw.text((x+(w-fw), y+(h-fh)), text[i], fill='white', bg='black', font = font)
+            draw.text((x+(w-fw), y+(h-fh)), text[i], fill='white', font = font)
             x += w + spacing
     else:
-        draw.text((380, 20), text, fill='grey', font = font)
+        x,y,fs = 380,20,28
+        font = ImageFont.truetype(ttf, fs)
+        draw.text((x, y), text, fill='grey', font = font)
 
     data = im.tobytes('raw')
     f = open(outfile,'wb')
